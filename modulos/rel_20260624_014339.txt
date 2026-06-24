@@ -1,0 +1,4 @@
+999999 0/100 LIMPO
+DET:[]
+SUS:[]
+LIM:[('M02', '🔍 Pacotes suspeitos'), ('M03', '⚙️ Processos'), ('M04', '🧠 Tempo/velocidade'), ('M05', '🚧 Root/Magisk/Zygisk/Emulador'), ('M06', '🧬 Assinaturas ELF/.so'), ('M07', '🎮 Portas'), ('M08', '🛡️ Debugger'), ('M09', '💬 Chat FF'), ('M10', '🔌 ADB Wi‑Fi')]

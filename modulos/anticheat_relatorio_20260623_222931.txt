@@ -1,0 +1,7 @@
+ANTICHEAT
+Data: 2026-06-23 22:29:31.428298
+Sistema: Android
+Pontuação: 39/100
+props: ['init.svc.adbd=running']
+biblioteca: 23 biblioteca(s) suspeita(s)
+integridade_sistema: 1 arquivo(s) alterado(s)

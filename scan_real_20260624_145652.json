@@ -1,0 +1,113 @@
+{
+  "data": "2026-06-24T14:56:52.840179",
+  "pt": 100,
+  "nv": "ALTO",
+  "det": [
+    [
+      "M06",
+      "🧬 Assinaturas ELF",
+      "[xposed] → /vendor/lib64/libGLES_mali.so"
+    ],
+    [
+      "M06",
+      "🧬 Assinaturas ELF",
+      "[xposed] → /vendor/lib64/libOpenCL.so"
+    ],
+    [
+      "M06",
+      "🧬 Assinaturas ELF",
+      "[frida] → /vendor/lib64/libTfliteWrapper.so"
+    ],
+    [
+      "M06",
+      "🧬 Assinaturas ELF",
+      "[xposed] → /vendor/lib64/egl/libGLES_mali.so"
+    ],
+    [
+      "M06",
+      "🧬 Assinaturas ELF",
+      "[xposed] → /vendor/lib64/hw/vulkan.ums9230.so"
+    ],
+    [
+      "M06",
+      "🧬 Assinaturas ELF",
+      "[frida] → /system/lib64/libadbd_auth.so"
+    ],
+    [
+      "M06",
+      "🧬 Assinaturas ELF",
+      "[xposed] → /system/lib64/libandroidfw.so"
+    ],
+    [
+      "M06",
+      "🧬 Assinaturas ELF",
+      "[frida] → /system/lib64/libc++.so"
+    ],
+    [
+      "M06",
+      "🧬 Assinaturas ELF",
+      "[frida] → /system/lib64/libc.so"
+    ],
+    [
+      "M06",
+      "🧬 Assinaturas ELF",
+      "[frida] → /system/lib64/libcurl.so"
+    ],
+    [
+      "M06",
+      "🧬 Assinaturas ELF",
+      "[xposed] → /system/lib64/libperfetto.so"
+    ],
+    [
+      "M06",
+      "🧬 Assinaturas ELF",
+      "[xposed] → /system/lib64/libwilhelm.so"
+    ],
+    [
+      "M06",
+      "🧬 Assinaturas ELF",
+      "[frida] → /system/lib64/hwasan/libc.so"
+    ]
+  ],
+  "sus": [
+    [
+      "M09",
+      "💬 Chat/Comportamento",
+      "Sem permissão leitura logs chat"
+    ]
+  ],
+  "limpo": [
+    [
+      "M01",
+      "🛡 Integridade"
+    ],
+    [
+      "M02",
+      "📦 Pacotes"
+    ],
+    [
+      "M03",
+      "⚙ Processos"
+    ],
+    [
+      "M04",
+      "⏱ Speedhack"
+    ],
+    [
+      "M05",
+      "👑 Root/Emulador"
+    ],
+    [
+      "M07",
+      "🔌 Portas abertas"
+    ],
+    [
+      "M08",
+      "🐞 Debugger"
+    ],
+    [
+      "M10",
+      "📡 ADB WiFi / Memória"
+    ]
+  ]
+}

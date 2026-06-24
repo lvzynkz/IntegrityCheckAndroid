@@ -1,0 +1,88 @@
+==================================
+    INTEGRITY CHECK ANDROID
+==================================
+
+[01] INFORMAÇÕES DO SISTEMA
+---------------------------
+Modelo:
+moto g04s
+
+Fabricante:
+motorola
+
+Android:
+14
+
+SDK:
+34
+
+[02] VERIFICAÇÃO DE ROOT
+------------------------
+[OK] Nenhum root funcional detectado
+
+[03] ADB E DEPURAÇÃO
+--------------------
+[OK] Depuração USB desativada
+[OK] Depuração Wi-Fi desativada
+
+Portas relacionadas ao ADB:
+Nenhuma porta ADB encontrada
+
+[04] VPN E REDE
+----------------
+
+Interfaces ativas:
+
+DNS configurado:
+[init.svc.mdnsd]: [running]
+[init.svc.mdnsd_netbpfload]: [stopped]
+
+[OK] Nenhum túnel VPN detectado
+
+[05] APLICATIVOS INSTALADOS
+---------------------------
+[INFO] Android bloqueou acesso à lista de aplicativos.
+[INFO] Módulo ignorado neste dispositivo.
+
+[06] ARMAZENAMENTO
+------------------
+Filesystem       Size Used Avail Use% Mounted on
+/dev/block/dm-56 112G  31G   81G  28% /data/user/0
+
+Memória interna disponível:
+Filesystem               Size Used Avail Use% Mounted on
+/dev/block/dm-14         894M 894M     0 100% /
+tmpfs                    1.8G 1.7M  1.8G   1% /dev
+tmpfs                    1.8G    0  1.8G   0% /mnt
+/dev/block/dm-15         401M 401M     0 100% /system_ext
+/dev/block/dm-16         840M 840M     0 100% /vendor
+/dev/block/dm-17          83M  83M     0 100% /odm
+/dev/block/dm-18         1.7G 1.7G     0 100% /product
+/dev/block/dm-19         9.4M 9.4M     0 100% /vendor_dlkm
+tmpfs                    1.8G 120K  1.8G   1% /apex
+
+[07] PROCESSOS ATIVOS
+---------------------
+Processos encontrados: 9
+
+Primeiros 15 processos:
+  PID TTY          TIME CMD
+ 1845 pts/0    00:00:00 /data/data/com.termux/files/usr/bin/bash
+ 1851 pts/0    00:00:00 /data/data/com.termux/files/usr/bin/bash
+ 1852 pts/0    00:00:00 tee
+ 1914 pts/0    00:00:00 bash
+ 1920 pts/0    00:00:00 ps
+ 1929 pts/0    00:00:00 head
+28747 pts/0    00:00:00 /data/data/com.termux/files/usr/bin/bash
+
+[08] PONTUAÇÃO DE SEGURANÇA
+---------------------------
+
+Pontuação: 100/100
+Status: EXCELENTE
+
+[09] PROCESSOS SUSPEITOS
+------------------------
+[OK] Nenhum processo suspeito encontrado
+
+Verificação concluída.

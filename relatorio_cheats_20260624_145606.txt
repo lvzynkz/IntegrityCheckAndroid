@@ -1,0 +1,28 @@
+RELATORIO DETECTOR DE CHEATS
+Data: 24/06/2026 14:56:06
+Sistema: Android
+Resultado: SUSPEITO
+--------------------------------------------------
+
+GameGuardian: [32m✅ LIMPO[0m
+
+Lucky Patcher: [32m✅ LIMPO[0m
+
+Cheat Engine: [33m⚠️  ENCONTRADO[0m
+ - [PARCIAL] /system/lib64/libonce_cell.dylib.so
+ - [PARCIAL] /system/lib64/libsoft_attestation_cert.so
+ - [PARCIAL] /vendor/lib64/libsoft_attestation_cert.so
+
+X8 Sandbox / VMOS / Máquinas Virtuais: [32m✅ LIMPO[0m
+
+SB Game Hacker / GameCIH: [32m✅ LIMPO[0m
+
+Freedom / Uret Patcher: [32m✅ LIMPO[0m
+
+Parallel Space / Clonadores: [32m✅ LIMPO[0m
+
+Ocultadores de Aplicativos: [32m✅ LIMPO[0m
+
+Root / Xposed / LSPosed / Modificações de Sistema: [32m✅ LIMPO[0m
+
+Outros cheats / modificadores: [32m✅ LIMPO[0m

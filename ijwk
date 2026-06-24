@@ -1,0 +1,48 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+clear
+
+echo "========================="
+echo " INTEGRITY CHECK ANDROID "
+echo "========================="
+echo
+echo "[1] Executar tudo"
+echo "[2] Sistema"
+echo "[3] Root"
+echo "[4] ADB"
+echo "[5] VPN"
+echo "[6] Armazenamento"
+echo "[7] Processos"
+echo "[8] Segurança"
+echo "[9] Suspeitos"
+echo "[0] Sair"
+echo
+
+read -p "Escolha: " OP
+
+case $OP in
+
+1)
+    for modulo in modulos/*.sh
+    do
+        bash "$modulo"
+    done
+    ;;
+
+2) bash modulos/mod01_sistema.sh ;;
+3) bash modulos/mod02_root.sh ;;
+4) bash modulos/mod03_adb.sh ;;
+5) bash modulos/mod04_vpn.sh ;;
+6) bash modulos/mod06_armazenamento.sh ;;
+7) bash modulos/mod07_processos.sh ;;
+8) bash modulos/mod08_seguranca.sh ;;
+9) bash modulos/mod09_suspeitos.sh ;;
+
+0)
+    exit
+    ;;
+
+*)
+    echo "Opção inválida"
+    ;;
+esac

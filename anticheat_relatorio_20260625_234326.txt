@@ -1,0 +1,41 @@
+==================================================
+ANTICHEAT · RELATÓRIO ÚNICO
+==================================================
+Data: 2026-06-25 23:43:26.161382
+Sistema: Android
+Pontuação: 51/100 · MÉDIO
+
+
+🚨 ⚙️  Propriedades perigosas
+   📍 init.svc.adbd=running
+
+🚨 🧬 Bibliotecas .so/.dll modificadas/injetadas
+   📍 ASSINATURA [frida] → /system/lib/libadbd_auth.so
+   📍 ASSINATURA [xposed] → /system/lib/libandroidfw.so
+   📍 ASSINATURA [frida] → /system/lib/libc++.so
+   📍 ASSINATURA [frida] → /system/lib/libc.so
+   📍 ASSINATURA [xposed] → /system/lib/libwilhelm.so
+   📍 ASSINATURA [frida] → /system/lib64/libadbd_auth.so
+   📍 ASSINATURA [xposed] → /system/lib64/libandroidfw.so
+   📍 ASSINATURA [frida] → /system/lib64/libc++.so
+   📍 ASSINATURA [frida] → /system/lib64/libc.so
+   📍 ASSINATURA [frida] → /system/lib64/libcurl.so
+   📍 ASSINATURA [xposed] → /system/lib64/libperfetto.so
+   📍 ASSINATURA [xposed] → /system/lib64/libwilhelm.so
+   📍 ASSINATURA [frida] → /system/lib64/hwasan/libc.so
+   📍 ASSINATURA [xposed] → /vendor/lib/libGLES_mali.so
+   📍 ASSINATURA [xposed] → /vendor/lib/libOpenCL.so
+   📍 ASSINATURA [frida] → /vendor/lib/libTfliteWrapper.so
+   📍 ASSINATURA [xposed] → /vendor/lib/egl/libGLES_mali.so
+   📍 ASSINATURA [xposed] → /vendor/lib/hw/vulkan.ums9230.so
+   📍 ASSINATURA [xposed] → /vendor/lib64/libGLES_mali.so
+   📍 ASSINATURA [xposed] → /vendor/lib64/libOpenCL.so
+   📍 ASSINATURA [frida] → /vendor/lib64/libTfliteWrapper.so
+   📍 ASSINATURA [xposed] → /vendor/lib64/egl/libGLES_mali.so
+   📍 ASSINATURA [xposed] → /vendor/lib64/hw/vulkan.ums9230.so
+
+🚨 🛡️  SELinux fraco/desativado
+   📍 SELinux NÃO EXISTE / DESATIVADO NO KERNEL
+
+🚨 📦 Arquivos de sistema alterados
+   📍 FALTANDO: /system/lib64/libart.so

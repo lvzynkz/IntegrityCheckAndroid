@@ -1,0 +1,51 @@
+DETECTOR DE BYPASS
+Data: 2026-06-24 01:51:40.422345
+Sistema: Android
+Risco: 45% MÉDIO
+Resultado: SUSPEITO
+
+▶ PROPRIEDADES ALTERADAS
+   - init.svc.adbd=running
+   - persist.sys.usb.config=adb
+
+▶ DEPURAÇÃO / ADB
+   - ADB ativo
+
+▶ SELinux FRACO
+   - DESATIVADO 🚨
+
+▶ INTEGRIDADE: 3 problema(s)
+   - ❌ AUSENTE: /system/lib/libart.so
+   - ❌ AUSENTE: /system/lib64/libart.so
+   - ❌ AUSENTE: /system/framework/boot.oat
+
+▶ BIBLIOTECAS SUSPEITAS: 28
+   - 🔴 ASSINATURA [frida] → /system/lib/libadbd_auth.so
+   - 🔴 ASSINATURA [libmemtrack] → /system/lib/libandroid_runtime.so
+   - 🔴 ASSINATURA [libmemtrack] → /system/lib/libandroid_servers.so
+   - 🔴 ASSINATURA [xposed] → /system/lib/libandroidfw.so
+   - 🔴 ASSINATURA [frida] → /system/lib/libc++.so
+   - 🔴 ASSINATURA [frida] → /system/lib/libc.so
+   - 🔴 ASSINATURA [xposed] → /system/lib/libwilhelm.so
+   - 🔴 ASSINATURA [frida] → /system/lib64/libadbd_auth.so
+   - 🔴 ASSINATURA [libmemtrack] → /system/lib64/libandroid_runtime.so
+   - 🔴 ASSINATURA [libmemtrack] → /system/lib64/libandroid_servers.so
+   - 🔴 ASSINATURA [xposed] → /system/lib64/libandroidfw.so
+   - 🔴 ASSINATURA [frida] → /system/lib64/libc++.so
+   - 🔴 ASSINATURA [frida] → /system/lib64/libc.so
+   - 🔴 ASSINATURA [frida] → /system/lib64/libcurl.so
+   - 🔴 ASSINATURA [xposed] → /system/lib64/libperfetto.so
+   - ...+13
+
+SELinux: DESATIVADO 🚨
+Assinatura: ASSINATURA OFICIAL ✅
+--- INTEGRIDADE ---
+✅ OK | 131KB | SHA‑256: 191cfda1b12f731c… | /system/bin/app_process
+✅ OK | 10KB | SHA‑256: 37a6529999856f58… | /system/bin/app_process32
+✅ OK | 131KB | SHA‑256: 191cfda1b12f731c… | /system/bin/app_process64
+❌ AUSENTE: /system/lib/libart.so
+❌ AUSENTE: /system/lib64/libart.so
+✅ OK | 868KB | SHA‑256: e8bca1f45c9bae2e… | /system/lib/libc.so
+✅ OK | 1202KB | SHA‑256: 44f78e917c5b1004… | /system/lib64/libc.so
+✅ OK | 39553KB | SHA‑256: 64cca2ac819788c8… | /system/framework/framework.jar
+❌ AUSENTE: /system/framework/boot.oat

@@ -1,0 +1,81 @@
+{
+  "data": "2026-06-24T01:43:39.482375",
+  "pt": 0,
+  "nv": "LIMPO",
+  "det": [],
+  "sus": [],
+  "mod": [
+    {
+      "id": "M01",
+      "n": "🛡️ Integridade sistema",
+      "es": "CONCLUÍDO",
+      "pt": 0,
+      "ev": [
+        "Permissões ok"
+      ]
+    },
+    {
+      "id": "M02",
+      "n": "🔍 Pacotes suspeitos",
+      "es": "CONCLUÍDO",
+      "pt": 0,
+      "ev": []
+    },
+    {
+      "id": "M03",
+      "n": "⚙️ Processos",
+      "es": "CONCLUÍDO",
+      "pt": 0,
+      "ev": []
+    },
+    {
+      "id": "M04",
+      "n": "🧠 Tempo/velocidade",
+      "es": "CONCLUÍDO",
+      "pt": 0,
+      "ev": []
+    },
+    {
+      "id": "M05",
+      "n": "🚧 Root/Magisk/Zygisk/Emulador",
+      "es": "CONCLUÍDO",
+      "pt": 0,
+      "ev": []
+    },
+    {
+      "id": "M06",
+      "n": "🧬 Assinaturas ELF/.so",
+      "es": "CONCLUÍDO",
+      "pt": 0,
+      "ev": []
+    },
+    {
+      "id": "M07",
+      "n": "🎮 Portas",
+      "es": "CONCLUÍDO",
+      "pt": 0,
+      "ev": []
+    },
+    {
+      "id": "M08",
+      "n": "🛡️ Debugger",
+      "es": "CONCLUÍDO",
+      "pt": 0,
+      "ev": []
+    },
+    {
+      "id": "M09",
+      "n": "💬 Chat FF",
+      "es": "CONCLUÍDO",
+      "pt": 0,
+      "ev": []
+    },
+    {
+      "id": "M10",
+      "n": "🔌 ADB Wi‑Fi",
+      "es": "CONCLUÍDO",
+      "pt": 0,
+      "ev": []
+    }
+  ]
+}

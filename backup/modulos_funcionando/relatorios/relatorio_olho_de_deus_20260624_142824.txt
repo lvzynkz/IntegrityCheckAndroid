@@ -1,0 +1,35 @@
+☾ · 11 · 𝖂𝖊𝖑𝖈𝖔𝖒𝖊 𝖒𝖊𝖗𝖊 𝖒𝖔𝖗𝖙𝖆𝖑 · ☮
+✧ — 𝙸𝙽𝙵𝙾𝚁𝙼𝙰𝚃𝙸𝙾𝙽 — 要
+
+        ╔════════════════════════╗
+        ║      🛡️ OLHO DE DEUS    ║
+        ║     RELATÓRIO FINAL    ║
+        ╚════════════════════════╝
+
+🗓️ Data e hora : 24/06/2026 14:28:24
+📍 Localização : /data/data/com.termux/files/home/IntegrityCheck-Android/modulos
+📊 Módulos     :  verificados |  ausentes
+
+┌─ ✦ CLASSIFICAÇÃO ✦ ──────────────────────┐
+│  🟢 LIMPO      : 
+│  🟡 BAIXO      : 
+│  🟠 MÉDIO      : 
+│  🔴 ALTO       : 
+│  ⚠️  CRÍTICO    : 
+│  ⚠️  AUSENTES   : 
+│  ───────────────────────────────────────
+│  ⚠️  TOTAL ANOMALIAS : 0
+│  ⭐ NOTA SEGURANÇA   : 10 / 10
+│  🧿 VEREDITO        : \033[1;32m✅ DISPOSITIVO SEGURO\033[0m
+└──────────────────────────────────────────┘
+
+▢ · 🟢 , Nenhuma anomalia encontrada:
+
+ℹ️ Caso queira mais, é só copiar e colar.
+Escreve e vai apagando o espaço em branco para deixar certinho.
+
+═══════════════════════════════════════════
+           🛡️ FIM DA ANÁLISE 🛡️
+═══════════════════════════════════════════
+💾 Arquivo salvo em:
+   /data/data/com.termux/files/home/IntegrityCheck-Android/modulos/relatorios/relatorio_olho_de_deus_20260624_142824.txt

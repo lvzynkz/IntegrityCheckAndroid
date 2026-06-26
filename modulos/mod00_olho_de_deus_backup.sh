@@ -283,31 +283,6 @@ echo -e "\033[0m"
 echo
 read -p "Pressione ENTER para finalizar..."
 
-# ==========================================================
-# ✅ SISTEMA ADICIONADO: ABRE VÍDEO AUTOMATICAMENTE NO YOUTUBE
-# ==========================================================
-LINK_YOUTUBE="https://youtube.com/shorts/7jnunVnsxcU?si=ubgKW60jlzk0Some"
-
-echo
-echo -e "\033[1;32m🔗 Abrindo vídeo oficial no YouTube...\033[0m"
-
-# Detecta ambiente e usa comando compatível
-if command -v termux-open-url >/dev/null 2>&1; then
-    termux-open-url "$LINK_YOUTUBE" &
-elif command -v xdg-open >/dev/null 2>&1; then
-    xdg-open "$LINK_YOUTUBE" &
-elif command -v open >/dev/null 2>&1; then
-    open "$LINK_YOUTUBE" &
-elif command -v start >/dev/null 2>&1; then
-    start "" "$LINK_YOUTUBE" &
-else
-    echo -e "\033[1;33mℹ️  Não foi possível abrir automaticamente.\033[0m"
-    echo -e "\033[1;33m📌 Acesse manualmente: $LINK_YOUTUBE\033[0m"
-fi
-
-sleep 2
-# ==========================================================
-
 clear
 
 echo

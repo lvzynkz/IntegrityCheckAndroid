@@ -1,4 +1,4 @@
-#!/data/data/com.termux/files/usr/bin/bash
+#!/data/data/c om.termux/files/usr/bin/bash
 
 # ==================================================
 #  INSTALADOR OFICIAL - INTEGRITY CHECK ANDROID
@@ -123,5 +123,14 @@ echo
 echo -e "${AMARELO}💡 Dica: na próxima vez basta digitar só o comando acima${RESET}"
 linha
 echo
+echo
+sucesso "Instalação concluída!"
+echo
+echo "Execute agora:"
+echo "cd $DIR_INSTALACAO"
+echo "./integrity.sh"
+
+cd "$DIR_INSTALACAO"
+./integrity.sh
 exit 0
 
